@@ -31,6 +31,8 @@ There are also person-level tests for abnormalities. While only one person fails
 
 Future to-dos:
 
+-Unit tests to make sure that the CSV gives us the specified kind of data (not null, etc.)
+
 -Explicitly forecast each swipe timestamp using a neural network
 
 -Form a network representation of workers based on people having close 'second' swipes (likely meaning going to lunch or carpooling together) and identify friendless people (insufficient data in this dataset). Similarly, if one person is a bad actor, you might want to increase your interest in people they seem to be socializing with. 

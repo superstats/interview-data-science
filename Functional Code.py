@@ -114,6 +114,7 @@ def cluster(X, skCluster, pct):
     return cluster_outlier
 
 def outlier_forest(X, IForest):
+    """Uses an isolation forest to identify anomalous badge swipes"""
     iforest_outlier = []
     IForest.fit( X)
     I_Pred = IForest.predict(X)
