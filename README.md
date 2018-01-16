@@ -41,3 +41,4 @@ Future to-dos:
 
 -Merge badge data with other time series like local weather as that can be a feature that impacts arrival/departure times
 
+-Have automated selection of parameters for machine learning methods to further remove human effort and make the program more independent
