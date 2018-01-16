@@ -2,7 +2,7 @@
 
 Write code to find (if any) anomalies from data in **anomaly_data.csv**. The data contains two columns. The first column is the employee identifier. The second column is the datetime the employee entered/exited the building. You may use any programming language. It's expected this project takes up to 5 hours to complete. Please upload your code to your personal Github account and provide instructions on how to run it. Email us the link to your project when you are done!
 
-
+## Solution
 To run the code, the following packages are required:
 sklearn - 0.19.1
 pandas - 0.21.0
@@ -29,7 +29,7 @@ Number of Flags- count of flags that a person was marked as 'yes' for
 
 There are also person-level tests for abnormalities. While only one person fails these tests in this dataset, their Person Id is written out to potential_bad_actors.csv. The idea behind these person level tests is that if a person is not swiping their badge both in and out regularly (as occurred in our data) or who are rogue (only coming in a very small number of times), then they should be inspected more closely as individuals. 
 
-Future to-dos:
+## Future to-dos:
 
 -Unit tests to make sure that the CSV gives us the specified kind of data (not null, etc.)
 
